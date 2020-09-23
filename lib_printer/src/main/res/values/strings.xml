@@ -1,0 +1,106 @@
+<resources>
+<!--    <string name="app_name">GprinterSdk</string>-->
+    <string name="title_paired_devices">Paired</string>
+    <string name="title_other_devices">New</string>
+    <string name="scan">Scan</string>
+    <string name="bluetooth_device_list">Bluetooth device list</string>
+    <string name="select_bluetooth_device">select bluetooth device</string>
+    <string name="none_bluetooth_device_found">none bluetooth device found</string>
+    <string name="none_paired">none paired</string>
+    <string name="scaning">scaning</string>
+    <string name="usb_devices_list">USB devices list</string>
+    <string name="none_usb_device">none usb device connected</string>
+
+    <string-array name="baudrate">
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>115200</item>
+    </string-array>
+    <string name="str_no_serialport">Do not support serial port</string>
+    <string name="str_conn_state_disconnect">Connection state: unconnected</string>
+    <string name="str_conn_state_connecting">Connection state: connecting</string>
+    <string name="str_connecting">connecting</string>
+    <string name="str_conn_state_connected">Connection state: connected</string>
+    <string name="str_wifi_ip">Please enter IP:</string>
+    <string name="str_ip">IP: </string>
+    <string name="str_port">Port: </string>
+    <string name="str_wifi_port">Please enter the port:</string>
+    <string name="str_state_query">State query</string>
+    <string name="str_mode_change">Printmode change</string>
+    <string name="str_disconnect">Disconnect</string>
+    <string name="str_label_print">Label print</string>
+    <string name="matrix">Label matrix QR code</string>
+    <string name="matrix_tip">Supported models (M320)</string>
+    <string name="str_label_print_long_photo">Label printing long picture</string>
+    <string name="str_photo_description">Some machines do not support this command and will print blanks.</string>
+    <string name="str_receipt_print">Receipt print</string>
+    <string name="str_cpcl_print">CPCL print</string>
+    <string name="str_bluetooth_connect">Bluetooth</string>
+    <string name="str_usb_connect">USB</string>
+    <string name="str_wifi_connect">wifi</string>
+    <string name="str_serialport_connect">Serial port</string>
+    <string name="str_confirm">Confirm</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_cann_printer">Please connect the printer first</string>
+    <string name="str_bluetooth">Bluetooth</string>
+    <string name="str_serialport">Serial port</string>
+    <string name="str_usb">USB</string>
+    <string name="str_wifi">WIFI</string>
+    <string name="str_conn_successful">The connection is successful!</string>
+    <string name="str_conn_fail">The connection failed!</string>
+    <string name="str_baudrate">Baud rate:</string>
+    <string name="str_serialport_path">Serial port path:</string>
+    <string name="str_conn_devices">Multi-devices</string>
+    <string name="str_conn_receipt_and_label_continuity_print">Continuous print</string>
+    <string name="str_address">Address:</string>
+    <string name="gprinter001">Printer 001</string>
+    <string name="gprinter002">Printer 002</string>
+    <string name="gprinter003">Printer 003</string>
+    <string name="gprinter004">Printer 004</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="cut">Unconnected</string>
+    <string name="cutting">Disconnect the connection.</string>
+    <string name="str_disconn">Disconnect</string>
+    <string name="connect">Connect</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="port">Interface: not set</string>
+    <string name="init_port_info">Address: unknown</string>
+    <string name="str_enter_print_counts">Please enter the number of Prints:</string>
+    <string name="str_choice_printer_command">Please select the correct printer instructions</string>
+    <string name="str_printer_conn_normal">Printer connected normal</string>
+    <string name="str_printer_out_of_paper">Printer out of paper</string>
+    <string name="str_printer_open_cover">Printer open cover</string>
+    <string name="str_printer_error">Printer error</string>
+    <string name="str_state">State: </string>
+    <string name="str_interface_undefine">Interface: Undefine</string>
+    <string name="str_select_printer_id">Select a printer with a ID of {0}</string>
+    <string name="bluetooth_is_not_enabled">bluetooth is not enabled</string>
+    <string name="bluetooth_is_close">Bluetooth off</string>
+    <string-array name="str_interf_type">
+        <item>Bluetooth</item>
+        <item>Ethernet</item>
+        <item>USB</item>
+    </string-array>
+    <string name="str_cpclmode">Cpcl Mode</string>
+    <string name="str_escmode">Receipt Mode</string>
+    <string name="str_tscmode">Label Mode</string>
+    <string name="str_synchronous_print">Synchronous Print</string>
+    <string name="str_printer_printmode_esc">Print Mode:ESC</string>
+    <string name="str_printer_printmode_tsc">Print Mode:TSC</string>
+    <string name="str_printer_printmode_cpcl">Print Mode:CPCL</string>
+    <string name="str_continuityprinter">Continuity Printer</string>
+    <string name="str_continuity_count">Continuity Print Count Null</string>
+    <string name="str_stop_continuityprint">Stop Continuity Print</string>
+    <string name="str_stop_continuityprint_success">Stop Continuity Print Success</string>
+    <string name="str_disconnect_success">Disconnect Success</string>
+    <string name="str_title_newdev">new</string>
+        <string name="str_title_pairedev">paire</string>
+    <string name="str_tv_printcount">print counts:</string>
+    <string name="str_print_selftest">Print Selftest</string>
+    <string name="str_print_xml">Print Xml</string>
+    <string name="str_mode_tip">The printer is already at %s and no need to switch!</string>
+    <string name="default_mode">Default mode, small ticket mode</string>
+</resources>

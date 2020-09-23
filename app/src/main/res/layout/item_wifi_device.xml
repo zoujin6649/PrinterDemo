@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_client_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_device_name"
+        android:padding="5dp"
+        android:text="终端编号：" />
+
+    <TextView
+        android:id="@+id/tv_device_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_client_no"
+        android:layout_alignBottom="@id/tv_client_no"
+        android:layout_toRightOf="@id/tv_client_no"
+        android:padding="5dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_status_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_client_no"
+        android:padding="5dp"
+        android:text="状态：" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_status_title"
+        android:layout_alignBottom="@id/tv_status_title"
+        android:layout_toRightOf="@id/tv_status_title"
+        android:padding="5dp"
+        android:text="" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tv_status_title"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="删除" />
+
+    <Button
+        android:id="@+id/btn_test_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/btn_delete"
+        android:text="测试打印" />
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/btn_test_print"
+        android:text="设为默认" />
+
+
+
+</RelativeLayout>

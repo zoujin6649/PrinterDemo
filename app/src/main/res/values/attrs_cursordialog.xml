@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CursorDialogThemeNoTitle">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    //有title
+
+    <style name="CursorDialogThemeNotFloat">
+        //是否浮现在activity之上
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="CursorDialogFullTheme" parent="CursorDialogThemeNotFloat">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    //没title
+
+    <style name="CursorDialogNotFloatNoTitleTheme" parent="CursorDialogThemeNoTitle">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="CursorDialogNoTitleFullTheme" parent="CursorDialogNotFloatNoTitleTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

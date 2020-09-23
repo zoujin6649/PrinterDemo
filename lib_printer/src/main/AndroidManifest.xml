@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lib_printer">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+    <!--App类用于获取全局变量，发送广播需用到，需要注册在application,不然发送广播会出现空指针错误-->
+
+<!--    <application-->
+<!--        android:name=".App"-->
+<!--        android:allowBackup="true"-->
+<!--        android:icon="@mipmap/ic_launcher"-->
+<!--        android:label="@string/app_name"-->
+<!--        android:supportsRtl="true"-->
+<!--        android:theme="@style/AppTheme">-->
+<!--        <activity android:name=".MainActivity">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name=".BluetoothDeviceList"-->
+<!--            android:configChanges="keyboardHidden|orientation|screenSize"-->
+<!--            android:label="@string/bluetooth_device_list"-->
+<!--            android:theme="@android:style/Theme.Dialog" />-->
+<!--        <activity-->
+<!--            android:name=".UsbDeviceList"-->
+<!--            android:configChanges="keyboardHidden|orientation|screenSize"-->
+<!--            android:label="@string/usb_devices_list"-->
+<!--            android:theme="@android:style/Theme.Dialog" />-->
+<!--        <activity-->
+<!--            android:name=".SerialPortList"-->
+<!--            android:configChanges="keyboardHidden|orientation|screenSize"-->
+<!--            android:theme="@android:style/Theme.Holo.Light.Dialog" />-->
+<!--        <activity android:name=".ConnMoreDevicesActivity" />&lt;!&ndash; ATTENTION: This was auto-generated to add Google Play services to your project for-->
+<!--     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. &ndash;&gt;-->
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.version"-->
+<!--            android:value="8487000" />-->
+<!--    </application>-->
+
+</manifest>
